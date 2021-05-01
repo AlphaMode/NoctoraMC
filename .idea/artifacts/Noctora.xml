@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Noctora">
+    <output-path>$PROJECT_DIR$/out/artifacts/Noctora</output-path>
+    <root id="archive" name="Noctora.jar">
+      <element id="module-output" name="NoctoraMC" />
+    </root>
+  </artifact>
+</component>

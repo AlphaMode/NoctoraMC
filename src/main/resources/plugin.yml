@@ -1,0 +1,31 @@
+main: Main.Noctora
+name: Noctora
+version: 1.0.0
+api-version: 1.16
+description: Noctoras main plugin
+permissions:
+  noctora.*:
+    description: All commands
+    default: op
+  noctora.chat:
+    description: All basic chat perms
+    default: op
+  noctora.admin:
+    description: temp
+    default: op
+  noctora.color:
+    description: temp
+    default: op
+commands:
+  bio:
+    description: Set your bio
+    permission: noctora.chat
+  desc:
+    description: Set a desc for rank
+    permission: noctora.admin
+  test:
+    permission: noctora.admin
+depend:
+  - LuckPerms
+  - DiscordSRV
+  - Essentials
